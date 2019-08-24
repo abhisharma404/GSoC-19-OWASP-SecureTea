@@ -115,7 +115,7 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
     - [IoT mode](https://github.com/OWASP/SecureTea-Project/pull/190)
 
 - Performed front-end Angular JS touch-ups
-    - [View list of PRs](https://github.com/OWASP/SecureTea-Project/pulls?utf8=%E2%9C%93&q=GUI)
+    - [View list of PRs](https://github.com/OWASP/SecureTea-Project/pulls?utf8=%E2%9C%93&q=GUI%3Aauthor%3Aabhisharma404)
 
 - [Added last logins to the GUI dashboard](https://github.com/OWASP/SecureTea-Project/pull/205)
 
