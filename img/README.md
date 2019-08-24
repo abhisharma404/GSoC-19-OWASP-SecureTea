@@ -1,0 +1,1 @@
+"""Images are stored here."""
