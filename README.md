@@ -311,6 +311,7 @@ View list of commits [here](https://github.com/OWASP/SecureTea-Project/commits?a
 - Blog: https://abhisharma404.blogspot.com/
 - [GSoC 2019 with OWASP](https://abhisharma404.blogspot.com/2019/05/gsoc-2019-with-owasp.html)
 - [Implementing a real-time server log monitoring](https://medium.com/@abhishekchem98/implementing-a-real-time-server-log-monitoring-a6c26607eb69)
+- [Curtain falls...GSoC comes to an end](https://abhisharma404.blogspot.com/2019/08/curtain-fallsgsoc-comes-to-end.html)
 
 ## Screenshots screenscasts and tutorial videos
 
