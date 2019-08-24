@@ -146,152 +146,152 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 |Date            |Type        |Status|ID  |Name                                                                                                   |
 |----------------|------------|------|----|-------------------------------------------------------------------------------------------------------|
 |**Pre-GSoC**        |            |      |    |                                                                                                       |
-|13.01.2019      |Issue       |Closed|[#9](https://github.com/OWASP/SecureTea-Project/pull/9)  |Error while installing                                                                                 |
-|13.01.2019      |Pull Request|Merged|#10 |Fix #9 setup error                                                                                     |
-|13.01.2019      |Pull Request|Merged|#11 |Add badges, fixed typos & others                                                                       |
-|14.01.2019      |Issue       |Closed|#12 |Bug : sudo pm-suspend does not work on Ubuntu 18.04                                                    |
-|14.01.2019      |Pull Request|Merged|#13 |Fix pm-suspend in new releases of Ubuntu                                                               |
-|26.01.2019      |Pull Request|Merged|#18 |Feature: SMS notification using Twilio API                                                             |
-|28.01.2019      |Issue       |Closed|#21 |Bug: Python 3 not supported                                                                            |
-|01.02.2019      |Pull Request|Merged|#23 |Reduce code crowding in core.py & introduce interactive setup                                          |
-|01.02.2019      |Pull Request|Merged|#31 |Minor touchups                                                                                         |
-|01.02.2019      |Issue       |Closed|#32 |Restructuring the current project architecture                                                         |
-|04.02.2019      |Pull Request|Merged|#33 |Close #32 : Re-structured to group the common behavioral files                                         |
-|18.02.2019      |Pull Request|Merged|#35 |Add SecureTea-Firewall                                                                                 |
-|02.03.2019      |Pull Request|Merged|#39 |CLI configuration & interactive setup for Firewall                                                     |
-|08.03.2019      |Pull Request|Merged|#41 |Add unit-tests                                                                                         |
-|17.03.2019      |Pull Request|Merged|#45 |Improve Firewall: log xnor decorator error, check root state                                           |
-|17.03.2019      |Pull Request|Merged|#46 |Improve unittest: Add support for mock-patch in Python 2                                               |
-|17.03.2019      |Pull Request|Merged|#47 |Bringing continuous integration service to SecureTea                                                   |
-|17.03.2019      |Pull Request|Merged|#48 |Close #43 - Add documentation                                                                          |
-|17.03.2019      |Pull Request|Merged|#49 |Separate developer & user guide                                                                        |
-|24.03.2019      |Pull Request|Merged|#60 |Add geo-location function                                                                              |
-|26.03.2019      |Pull Request|Merged|#63 |Add insecure-headers feature                                                                           |
-|26.03.2019      |Issue       |Closed|#65 |Bug: Lost support for Python 3 & failing test cases                                                    |
-|26.03.2019      |Pull Request|Closed|#68 |Fix #65 : Restore Python 3 support & pass test cases                                                   |
-|13.04.2019      |Pull Request|Closed|#84 |Add Gmail notification feature                                                                         |
-|15.04.2019      |Pull Request|Closed|#85 |PEP-8 & other minor fixes                                                                              |
-|20.04.2019      |Pull Request|Closed|#88 |Fix #52 - sqlite3 operational error                                                                    |
-|20.04.2019      |Pull Request|Closed|#89 |Add libnetfilterqueue to pre-requisites                                                                |
+|13.01.2019      |Issue       |Closed|[[#9](https://github.com/OWASP/SecureTea-Project/issues/#9)](https://github.com/OWASP/SecureTea-Project/pull/9)  |Error while installing                                                                                 |
+|13.01.2019      |Pull Request|Merged|[[#10](https://github.com/OWASP/SecureTea-Project/issues/#10)](https://github.com/OWASP/SecureTea-Project/pull/10) |Fix #9 setup error                                                                                     |
+|13.01.2019      |Pull Request|Merged|[#11](https://github.com/OWASP/SecureTea-Project/issues/#11) |Add badges, fixed typos & others                                                                       |
+|14.01.2019      |Issue       |Closed|[#12](https://github.com/OWASP/SecureTea-Project/issues/#12) |Bug : sudo pm-suspend does not work on Ubuntu 18.04                                                    |
+|14.01.2019      |Pull Request|Merged|[#13](https://github.com/OWASP/SecureTea-Project/issues/#13) |Fix pm-suspend in new releases of Ubuntu                                                               |
+|26.01.2019      |Pull Request|Merged|[#18](https://github.com/OWASP/SecureTea-Project/issues/#18) |Feature: SMS notification using Twilio API                                                             |
+|28.01.2019      |Issue       |Closed|[#21](https://github.com/OWASP/SecureTea-Project/issues/#21) |Bug: Python 3 not supported                                                                            |
+|01.02.2019      |Pull Request|Merged|[#23](https://github.com/OWASP/SecureTea-Project/issues/#23) |Reduce code crowding in core.py & introduce interactive setup                                          |
+|01.02.2019      |Pull Request|Merged|[#31](https://github.com/OWASP/SecureTea-Project/issues/#31) |Minor touchups                                                                                         |
+|01.02.2019      |Issue       |Closed|[#32](https://github.com/OWASP/SecureTea-Project/issues/#32) |Restructuring the current project architecture                                                         |
+|04.02.2019      |Pull Request|Merged|[#33](https://github.com/OWASP/SecureTea-Project/issues/#33) |Close #32 : Re-structured to group the common behavioral files                                         |
+|18.02.2019      |Pull Request|Merged|[#35](https://github.com/OWASP/SecureTea-Project/issues/#35) |Add SecureTea-Firewall                                                                                 |
+|02.03.2019      |Pull Request|Merged|[#39](https://github.com/OWASP/SecureTea-Project/issues/#39) |CLI configuration & interactive setup for Firewall                                                     |
+|08.03.2019      |Pull Request|Merged|[#41](https://github.com/OWASP/SecureTea-Project/issues/#41) |Add unit-tests                                                                                         |
+|17.03.2019      |Pull Request|Merged|[#45](https://github.com/OWASP/SecureTea-Project/issues/#45) |Improve Firewall: log xnor decorator error, check root state                                           |
+|17.03.2019      |Pull Request|Merged|[#46](https://github.com/OWASP/SecureTea-Project/issues/#46) |Improve unittest: Add support for mock-patch in Python 2                                               |
+|17.03.2019      |Pull Request|Merged|[#47](https://github.com/OWASP/SecureTea-Project/issues/#47) |Bringing continuous integration service to SecureTea                                                   |
+|17.03.2019      |Pull Request|Merged|[#48](https://github.com/OWASP/SecureTea-Project/issues/#48) |Close #43 - Add documentation                                                                          |
+|17.03.2019      |Pull Request|Merged|[#49](https://github.com/OWASP/SecureTea-Project/issues/#49) |Separate developer & user guide                                                                        |
+|24.03.2019      |Pull Request|Merged|[#60](https://github.com/OWASP/SecureTea-Project/issues/#60) |Add geo-location function                                                                              |
+|26.03.2019      |Pull Request|Merged|[#63](https://github.com/OWASP/SecureTea-Project/issues/#63) |Add insecure-headers feature                                                                           |
+|26.03.2019      |Issue       |Closed|[#65](https://github.com/OWASP/SecureTea-Project/issues/#65) |Bug: Lost support for Python 3 & failing test cases                                                    |
+|26.03.2019      |Pull Request|Closed|[#68](https://github.com/OWASP/SecureTea-Project/issues/#68) |Fix #65 : Restore Python 3 support & pass test cases                                                   |
+|13.04.2019      |Pull Request|Closed|[#84](https://github.com/OWASP/SecureTea-Project/issues/#84) |Add Gmail notification feature                                                                         |
+|15.04.2019      |Pull Request|Closed|[#85](https://github.com/OWASP/SecureTea-Project/issues/#85) |PEP-8 & other minor fixes                                                                              |
+|20.04.2019      |Pull Request|Closed|[#88](https://github.com/OWASP/SecureTea-Project/issues/#88) |Fix #52 - sqlite3 operational error                                                                    |
+|20.04.2019      |Pull Request|Closed|[#89](https://github.com/OWASP/SecureTea-Project/issues/#89) |Add libnetfilterqueue to pre-requisites                                                                |
 |                |            |      |    |                                                                                                       |
 |**GSoC Phase - I**  |            |      |    |                                                                                                       |
-|12.05.2019      |Pull Request|Merged|#99 |Add unittest for AWS                                                                                   |
-|15.05.2019      |Pull Request|Merged|#100|Add docstrings to un-documented functions/methods                                                      |
-|18.05.2019      |Pull Request|Merged|#101|Add SecureTea IDS (recon)                                                                              |
-|27.05.2019      |Pull Request|Merged|#102|Add R2L attack vectors to IDS                                                                          |
-|27.05.2019      |Pull Request|Merged|#103|Update docs (user & dev guide)                                                                         |
-|29.05.2019      |Pull Request|Merged|#104|Add advanced Firewall rules & enable PCAP dumping of rejected packets                                  |
-|29.05.2019      |Pull Request|Merged|#105|Mock get_current_location API call                                                                     |
-|30.05.2019      |Pull Request|Merged|#106|Minor fix                                                                                              |
-|30.05.2019      |Pull Request|Merged|#107|Update user & developer guide                                                                          |
-|31.05.2019      |Pull Request|Merged|#108|Update setup.py to latest                                                                              |
-|31.05.2019      |Pull Request|Merged|#111|Update to setup.py to check for dependency                                                             |
-|31.05.2019      |Pull Request|Merged|#113|Enable OS specific dependency installation                                                             |
-|04.06.2019      |Pull Request|Merged|#123|Fix pytest travis error                                                                                |
-|13.06.2019      |Pull Request|Merged|#126|Add system log monitor                                                                                 |
-|11.06.2019      |Pull Request|Merged|#127|Update user docs to add system log monitor                                                             |
-|06.06.2019      |Pull Request|Merged|#128|Create user guide for PyPi                                                                             |
-|06.06.2019      |Issue       |Closed|#129|Bug: KeyError in AWS SES                                                                               |
-|06.06.2019      |Pull Request|Merged|#130|Fix #129 AWS SES KeyError                                                                              |
-|06.06.2019      |Issue       |Closed|#131|Bug: Gmail class destructor called before                                                              |
-|06.06.2019      |Pull Request|Merged|#132|Fix #131 - Initialize before destruct                                                                  |
-|06.06.2019      |Pull Request|Merged|#133|Fix Codacy warning - Handle exception                                                                  |
-|06.06.2019      |Pull Request|Merged|#134|Add system log developer guide                                                                         |
-|20.07.2019      |Pull Request|Merged|#172|PyPi docs: Add IoT checker docs                                                                        |
-|20.07.2019      |Pull Request|Merged|#173|Update setup.py                                                                                        |
-|20.07.2019      |Pull Request|Merged|#174|Dev docs: Update roadmap                                                                               |
-|21.07.2019      |Pull Request|Merged|#175|Update developer docs                                                                                  |
-|21.07.2019      |Pull Request|Merged|#176|Update setup.py for 1.5.1 release                                                                      |
-|21.07.2019      |Pull Request|Merged|#177|User docs: Add OSINT feature details                                                                   |
-|21.07.2019      |Pull Request|Merged|#178|PyPi: Add OSINT details                                                                                |
+|12.05.2019      |Pull Request|Merged|[#99](https://github.com/OWASP/SecureTea-Project/issues/#99) |Add unittest for AWS                                                                                   |
+|15.05.2019      |Pull Request|Merged|[#100](https://github.com/OWASP/SecureTea-Project/issues/#100)|Add docstrings to un-documented functions/methods                                                      |
+|18.05.2019      |Pull Request|Merged|[#101](https://github.com/OWASP/SecureTea-Project/issues/#101)|Add SecureTea IDS (recon)                                                                              |
+|27.05.2019      |Pull Request|Merged|[#102](https://github.com/OWASP/SecureTea-Project/issues/#102)|Add R2L attack vectors to IDS                                                                          |
+|27.05.2019      |Pull Request|Merged|[#103](https://github.com/OWASP/SecureTea-Project/issues/#103)|Update docs (user & dev guide)                                                                         |
+|29.05.2019      |Pull Request|Merged|[#104](https://github.com/OWASP/SecureTea-Project/issues/#104)|Add advanced Firewall rules & enable PCAP dumping of rejected packets                                  |
+|29.05.2019      |Pull Request|Merged|[#105](https://github.com/OWASP/SecureTea-Project/issues/#105)|Mock get_current_location API call                                                                     |
+|30.05.2019      |Pull Request|Merged|[#106](https://github.com/OWASP/SecureTea-Project/issues/#106)|Minor fix                                                                                              |
+|30.05.2019      |Pull Request|Merged|[#107](https://github.com/OWASP/SecureTea-Project/issues/#107)|Update user & developer guide                                                                          |
+|31.05.2019      |Pull Request|Merged|[#108](https://github.com/OWASP/SecureTea-Project/issues/#108)|Update setup.py to latest                                                                              |
+|31.05.2019      |Pull Request|Merged|[#111](https://github.com/OWASP/SecureTea-Project/issues/#111)|Update to setup.py to check for dependency                                                             |
+|31.05.2019      |Pull Request|Merged|[#113](https://github.com/OWASP/SecureTea-Project/issues/#113)|Enable OS specific dependency installation                                                             |
+|04.06.2019      |Pull Request|Merged|[#123](https://github.com/OWASP/SecureTea-Project/issues/#123)|Fix pytest travis error                                                                                |
+|13.06.2019      |Pull Request|Merged|[#126](https://github.com/OWASP/SecureTea-Project/issues/#126)|Add system log monitor                                                                                 |
+|11.06.2019      |Pull Request|Merged|[#127](https://github.com/OWASP/SecureTea-Project/issues/#127)|Update user docs to add system log monitor                                                             |
+|06.06.2019      |Pull Request|Merged|[#128](https://github.com/OWASP/SecureTea-Project/issues/#128)|Create user guide for PyPi                                                                             |
+|06.06.2019      |Issue       |Closed|[#129](https://github.com/OWASP/SecureTea-Project/issues/#129)|Bug: KeyError in AWS SES                                                                               |
+|06.06.2019      |Pull Request|Merged|[#130](https://github.com/OWASP/SecureTea-Project/issues/#130)|Fix #129 AWS SES KeyError                                                                              |
+|06.06.2019      |Issue       |Closed|[#131](https://github.com/OWASP/SecureTea-Project/issues/#131)|Bug: Gmail class destructor called before                                                              |
+|06.06.2019      |Pull Request|Merged|[#132](https://github.com/OWASP/SecureTea-Project/issues/#132)|Fix #131 - Initialize before destruct                                                                  |
+|06.06.2019      |Pull Request|Merged|[#133](https://github.com/OWASP/SecureTea-Project/issues/#133)|Fix Codacy warning - Handle exception                                                                  |
+|06.06.2019      |Pull Request|Merged|[#134](https://github.com/OWASP/SecureTea-Project/issues/#134)|Add system log developer guide                                                                         |
+|20.07.2019      |Pull Request|Merged|[#172](https://github.com/OWASP/SecureTea-Project/issues/#172)|PyPi docs: Add IoT checker docs                                                                        |
+|20.07.2019      |Pull Request|Merged|[#173](https://github.com/OWASP/SecureTea-Project/issues/#173)|Update setup.py                                                                                        |
+|20.07.2019      |Pull Request|Merged|[#174](https://github.com/OWASP/SecureTea-Project/issues/#174)|Dev docs: Update roadmap                                                                               |
+|21.07.2019      |Pull Request|Merged|[#175](https://github.com/OWASP/SecureTea-Project/issues/#175)|Update developer docs                                                                                  |
+|21.07.2019      |Pull Request|Merged|[#176](https://github.com/OWASP/SecureTea-Project/issues/#176)|Update setup.py for 1.5.1 release                                                                      |
+|21.07.2019      |Pull Request|Merged|[#177](https://github.com/OWASP/SecureTea-Project/issues/#177)|User docs: Add OSINT feature details                                                                   |
+|21.07.2019      |Pull Request|Merged|[#178](https://github.com/OWASP/SecureTea-Project/issues/#178)|PyPi: Add OSINT details                                                                                |
 |                |            |      |    |                                                                                                       |
 |**GSoC Phase - II** |            |      |    |                                                                                                       |
-|18.06.2019      |Pull Request|Merged|#138|Feature: Add Server log monitor                                                                        |
-|18.06.2019      |Pull Request|Merged|#139|Add server log documentation (user)                                                                    |
-|18.06.2019      |Pull Request|Merged|#140|Add server log docs (PyPi)                                                                             |
-|18.06.2019      |Pull Request|Merged|#141|Update setup.py for v1.4 release                                                                       |
-|24.06.2019      |Pull Request|Merged|#142|Feature: Add Auto Server Patcher                                                                       |
-|25.06.2019      |Pull Request|Merged|#143|Classify arguments for easier understanding                                                            |
-|25.06.2019      |Pull Request|Merged|#144|Display list of interfaces                                                                             |
-|30.06.2019      |Pull Request|Merged|#146|Feature: Add web deface detection (server side)                                                        |
-|01.07.2019      |Pull Request|Merged|#147|Update user docs for auto-server-patcher                                                               |
-|01.07.2019      |Pull Request|Merged|#148|Update PyPi user guide for auto-server-patcher & tabular view of arguments                             |
-|01.07.2019      |Pull Request|Merged|#149|Update .gitignore to ignore temp PCAP files                                                            |
-|15.07.2019      |Pull Request|Merged|#151|Add SecureTea Anti-Virus                                                                               |
-|16.07.2019      |Pull Request|Merged|#152|Feature: OSINT analysis about the IP address                                                           |
-|18.07.2019      |Pull Request|Merged|#153|Featrue: Check IoT device Security / Anonymity                                                         |
-|18.07.2019      |Pull Request|Merged|#154|Update user guide: Add AntiVirus docs                                                                  |
-|18.07.2019      |Pull Request|Merged|#155|PyPi docs: Add AntiVirus details                                                                       |
-|19.07.2019      |Pull Request|Merged|#156|User docs: Add web deface detection docs                                                               |
-|19.07.2019      |Pull Request|Merged|#157|PyPi docs: Add web deface details                                                                      |
-|20.07.2019      |Pull Request|Merged|#169|Fix all contributors badge                                                                             |
-|20.07.2019      |Pull Request|Merged|#170|User docs: Add IoT Anonymity Checker docs                                                              |
-|20.07.2019      |Pull Request|Merged|#171|Update IoT checker args                                                                                |
-|20.07.2019      |Pull Request|Merged|#172|PyPi docs: Add IoT checker docs                                                                        |
-|20.07.2019      |Pull Request|Merged|#173|Update setup.py                                                                                        |
-|20.07.2019      |Pull Request|Merged|#174|Dev docs: Update roadmap                                                                               |
-|21.07.2019      |Pull Request|Merged|#175|Update developer docs                                                                                  |
-|21.07.2019      |Pull Request|Merged|#176|Update setup.py for 1.5.1 release                                                                      |
-|21.07.2019      |Pull Request|Merged|#177|User docs: Add OSINT feature details                                                                   |
-|21.07.2019      |Pull Request|Merged|#178|PyPi: Add OSINT details                                                                                |
+|18.06.2019      |Pull Request|Merged|[#138](https://github.com/OWASP/SecureTea-Project/issues/#138)|Feature: Add Server log monitor                                                                        |
+|18.06.2019      |Pull Request|Merged|[#139](https://github.com/OWASP/SecureTea-Project/issues/#139)|Add server log documentation (user)                                                                    |
+|18.06.2019      |Pull Request|Merged|[#140](https://github.com/OWASP/SecureTea-Project/issues/#140)|Add server log docs (PyPi)                                                                             |
+|18.06.2019      |Pull Request|Merged|[#141](https://github.com/OWASP/SecureTea-Project/issues/#141)|Update setup.py for v1.4 release                                                                       |
+|24.06.2019      |Pull Request|Merged|[#142](https://github.com/OWASP/SecureTea-Project/issues/#142)|Feature: Add Auto Server Patcher                                                                       |
+|25.06.2019      |Pull Request|Merged|[#143](https://github.com/OWASP/SecureTea-Project/issues/#143)|Classify arguments for easier understanding                                                            |
+|25.06.2019      |Pull Request|Merged|[#144](https://github.com/OWASP/SecureTea-Project/issues/#144)|Display list of interfaces                                                                             |
+|30.06.2019      |Pull Request|Merged|[#146](https://github.com/OWASP/SecureTea-Project/issues/#146)|Feature: Add web deface detection (server side)                                                        |
+|01.07.2019      |Pull Request|Merged|[#147](https://github.com/OWASP/SecureTea-Project/issues/#147)|Update user docs for auto-server-patcher                                                               |
+|01.07.2019      |Pull Request|Merged|[#148](https://github.com/OWASP/SecureTea-Project/issues/#148)|Update PyPi user guide for auto-server-patcher & tabular view of arguments                             |
+|01.07.2019      |Pull Request|Merged|[#149](https://github.com/OWASP/SecureTea-Project/issues/#149)|Update .gitignore to ignore temp PCAP files                                                            |
+|15.07.2019      |Pull Request|Merged|[#151](https://github.com/OWASP/SecureTea-Project/issues/#151)|Add SecureTea Anti-Virus                                                                               |
+|16.07.2019      |Pull Request|Merged|[#152](https://github.com/OWASP/SecureTea-Project/issues/#152)|Feature: OSINT analysis about the IP address                                                           |
+|18.07.2019      |Pull Request|Merged|[#153](https://github.com/OWASP/SecureTea-Project/issues/#153)|Featrue: Check IoT device Security / Anonymity                                                         |
+|18.07.2019      |Pull Request|Merged|[#154](https://github.com/OWASP/SecureTea-Project/issues/#154)|Update user guide: Add AntiVirus docs                                                                  |
+|18.07.2019      |Pull Request|Merged|[#155](https://github.com/OWASP/SecureTea-Project/issues/#155)|PyPi docs: Add AntiVirus details                                                                       |
+|19.07.2019      |Pull Request|Merged|[#156](https://github.com/OWASP/SecureTea-Project/issues/#156)|User docs: Add web deface detection docs                                                               |
+|19.07.2019      |Pull Request|Merged|[#157](https://github.com/OWASP/SecureTea-Project/issues/#157)|PyPi docs: Add web deface details                                                                      |
+|20.07.2019      |Pull Request|Merged|[#169](https://github.com/OWASP/SecureTea-Project/issues/#169)|Fix all contributors badge                                                                             |
+|20.07.2019      |Pull Request|Merged|[#170](https://github.com/OWASP/SecureTea-Project/issues/#170)|User docs: Add IoT Anonymity Checker docs                                                              |
+|20.07.2019      |Pull Request|Merged|[#171](https://github.com/OWASP/SecureTea-Project/issues/#171)|Update IoT checker args                                                                                |
+|20.07.2019      |Pull Request|Merged|[#172](https://github.com/OWASP/SecureTea-Project/issues/#172)|PyPi docs: Add IoT checker docs                                                                        |
+|20.07.2019      |Pull Request|Merged|[#173](https://github.com/OWASP/SecureTea-Project/issues/#173)|Update setup.py                                                                                        |
+|20.07.2019      |Pull Request|Merged|[#174](https://github.com/OWASP/SecureTea-Project/issues/#174)|Dev docs: Update roadmap                                                                               |
+|21.07.2019      |Pull Request|Merged|[#175](https://github.com/OWASP/SecureTea-Project/issues/#175)|Update developer docs                                                                                  |
+|21.07.2019      |Pull Request|Merged|[#176](https://github.com/OWASP/SecureTea-Project/issues/#176)|Update setup.py for 1.5.1 release                                                                      |
+|21.07.2019      |Pull Request|Merged|[#177](https://github.com/OWASP/SecureTea-Project/issues/#177)|User docs: Add OSINT feature details                                                                   |
+|21.07.2019      |Pull Request|Merged|[#178](https://github.com/OWASP/SecureTea-Project/issues/#178)|PyPi: Add OSINT details                                                                                |
 |                |            |      |    |                                                                                                       |
 |**GSoC Phase - III**|            |      |    |                                                                                                       |
-|23.07.2019      |Pull Request|Merged|#179|Elemental connection: Connect OSINT with Firewall                                                      |
-|24.07.2019      |Pull Request|Merged|#180|Elemental connection: Connect server log monitor to OSINT                                              |
-|24.07.2019      |Pull Request|Merged|#181|Elemental connection: Connect OSINT with IDS                                                           |
-|24.07.2019      |Pull Request|Merged|#182|Elemental connection: Connect system log monitor with OSINT                                            |
-|27.07.2019      |Pull Request|Merged|#183|Make Firewall smart: Learn bad IP address from IDS                                                     |
-|28.07.2019      |Pull Request|Merged|#184|Make Firewall smart: Learn bad IP address from Real-time Server Log Monitor                            |
-|28.07.2019      |Pull Request|Merged|#185|Make Firewall smart: Learn bad IP address from System log monitor                                      |
-|28.07.2019      |Pull Request|Merged|#186|Fix contents spacing to improve readability and match the current doc formatting standards.            |
-|29.07.2019      |Pull Request|Merged|#187|Feature: Introduce SecureTea server mode                                                               |
-|1.08.2019       |Pull Request|Merged|#188|Feature: Introduce SecureTea System mode                                                               |
-|1.08.2019       |Pull Request|Merged|#189|Dev docs: Add server mode details                                                                      |
-|2.08.2019       |Pull Request|Merged|#190|Feature: Introduce SecureTea IoT mode                                                                  |
-|2.08.2019       |Issue       |Closed|#191|Bug: Invalid Shodan API key blocks API Key attribute declaration                                       |
-|2.08.2019       |Pull Request|Merged|#192|Fix #191: Bug: Invalid Shodan API key blocks API Key attribute declaration                             |
-|2.08.2019       |Pull Request|Merged|#193|Dev docs: Add system mode details                                                                      |
-|2.08.2019       |Issue       |Closed|#194|Bug: Setup failing to locate & copy OSINT files during installation                                    |
-|4.08.2019       |Pull Request|Merged|#195|Fix #194: Identify OSINT as a python package                                                           |
-|4.08.2019       |Issue       |Closed|#196|Bug: "pip install" fails to copy configuration file                                                    |
-|4.08.2019       |Pull Request|Merged|#197|Fix #196: Instruct setup.py to copy configuration file                                                 |
-|4.08.2019       |Pull Request|Merged|#198|Dev docs: Add IoT mode details                                                                         |
-|4.08.2019       |Pull Request|Merged|#199|Make modes mutually exclusive                                                                          |
-|5.08.2019       |Pull Request|Merged|#200|User docs: Add server mode details                                                                     |
-|5.08.2019       |Pull Request|Merged|#201|PyPi docs: Add server mode details                                                                     |
-|5.08.2019       |Issue       |Closed|#202|Bug: Failing to retrieve (KeyError) AntiVirus & Web Deface configurations from saved configuration file|
-|5.08.2019       |Pull Request|Merged|#203|Fix #202: Look for appropriate keys                                                                    |
-|6.08.2019       |Pull Request|Merged|#205|Feature: Add last login details to GUI dashboard                                                       |
-|8.0.8.2019      |Pull Request|Merged|#206|GUI: Add Gmail notification text fields                                                                |
-|7.08.2019       |Issue       |Closed|#207|Bug: Missing UTF-8 encoding definition                                                                 |
-|7.08.2019       |Pull Request|Merged|#208|Fix #207 - Add missing UTF-8 module encoding definition                                                |
-|9.08.2019       |Pull Request|Merged|#209|GUI: Add antivirus configuration fields                                                                |
-|9.08.2019       |Pull Request|Merged|#210|Dev docs: Update roadmap                                                                               |
-|10.08.2019      |Pull Request|Merged|#211|GUI: Add GUI configuration fields for Auto Server Patcher                                              |
-|10.08.2019      |Pull Request|Merged|#212|Dev docs: Fix mode diagram missing link due to forked branch deletion                                  |
-|10.08.2019      |Pull Request|Merged|#213|User docs: Add system mode details                                                                     |
-|10.08.2019      |Pull Request|Merged|#214|PyPi docs: Add system mode details                                                                     |
-|11..08.2019     |Pull Request|Merged|#215|GUI: Add GUI for system log monitor                                                                    |
-|11..08.2019     |Pull Request|Merged|#216|User docs: Add IoT mode details                                                                        |
-|11..08.2019     |Pull Request|Merged|#217|PyPi docs: Add IoT mode details                                                                        |
-|14.08.2019      |Pull Request|Merged|#218|GUI: Add Firewall configuration fields                                                                 |
-|14.08.2019      |Pull Request|Merged|#219|User docs: Provide support for technical jargon to improve user experience                             |
-|14.08.2019      |Pull Request|Merged|#220|PyPi docs: Provide support for technical jargon to improve user experience                             |
-|15.08.2019      |Pull Request|Merged|#221|GUI: Add server log monitor configuration fields                                                       |
-|14.08.2019      |Pull Request|Merged|#222|Restructure README                                                                                     |
-|15.08.2019      |Pull Request|Merged|#223|GUI: Add Intrusion Detection System configuration fields                                               |
-|16.08.2019      |Pull Request|Merged|#225|GUI: Add Local Web Deface Detection & Prevention System                                                |
-|16.08.2019      |Pull Request|Merged|#226|Collect network interface name before process division to avoid screen locking & base-10 error         |
-|16.08.2019      |Pull Request|Merged|#227|Update README with the requested changes                                                               |
-|17.08.2019      |Pull Request|Merged|#230|Fix #229 - Restore Python 2 support for input                                                          |
-|17.08.2019      |Pull Request|Merged|#231|GUI: Add IoT Anonymity Checker & Insecure Headers configuration fields                                 |
-|18.08.2019      |Pull Request|Merged|#232|End SSID spoof scanning loop when scanning not supported by the interface & safely log the message     |
-|18.08.2019      |Pull Request|Merged|#233|Create guide for setting up local web serving over HTTPS                                               |
-|19.08.2019      |Pull Request|Merged|#236|Re-structure, re-design and update the README.md                                                       |
-|19.08.2019      |Pull Request|Merged|#238|Update user guide to latest                                                                            |
-|19.08.2019      |Pull Request|Merged|#239|Update PyPi docs to latest                                                                             |
-|22.08.2019      |Pull Request|Merged|#237|Update setup.py for v2.0 release                                                                       |
-|23.08.2019      |Pull Request|Open|#240|Update README for v2.0 release                                                                           |
+|23.07.2019      |Pull Request|Merged|[#179](https://github.com/OWASP/SecureTea-Project/issues/#179)|Elemental connection: Connect OSINT with Firewall                                                      |
+|24.07.2019      |Pull Request|Merged|[#180](https://github.com/OWASP/SecureTea-Project/issues/#180)|Elemental connection: Connect server log monitor to OSINT                                              |
+|24.07.2019      |Pull Request|Merged|[#181](https://github.com/OWASP/SecureTea-Project/issues/#181)|Elemental connection: Connect OSINT with IDS                                                           |
+|24.07.2019      |Pull Request|Merged|[#182](https://github.com/OWASP/SecureTea-Project/issues/#182)|Elemental connection: Connect system log monitor with OSINT                                            |
+|27.07.2019      |Pull Request|Merged|[#183](https://github.com/OWASP/SecureTea-Project/issues/#183)|Make Firewall smart: Learn bad IP address from IDS                                                     |
+|28.07.2019      |Pull Request|Merged|[#184](https://github.com/OWASP/SecureTea-Project/issues/#184)|Make Firewall smart: Learn bad IP address from Real-time Server Log Monitor                            |
+|28.07.2019      |Pull Request|Merged|[#185](https://github.com/OWASP/SecureTea-Project/issues/#185)|Make Firewall smart: Learn bad IP address from System log monitor                                      |
+|28.07.2019      |Pull Request|Merged|[#186](https://github.com/OWASP/SecureTea-Project/issues/#186)|Fix contents spacing to improve readability and match the current doc formatting standards.            |
+|29.07.2019      |Pull Request|Merged|[#187](https://github.com/OWASP/SecureTea-Project/issues/#187)|Feature: Introduce SecureTea server mode                                                               |
+|1.08.2019       |Pull Request|Merged|[#188](https://github.com/OWASP/SecureTea-Project/issues/#188)|Feature: Introduce SecureTea System mode                                                               |
+|1.08.2019       |Pull Request|Merged|[#189](https://github.com/OWASP/SecureTea-Project/issues/#189)|Dev docs: Add server mode details                                                                      |
+|2.08.2019       |Pull Request|Merged|[#190](https://github.com/OWASP/SecureTea-Project/issues/#190)|Feature: Introduce SecureTea IoT mode                                                                  |
+|2.08.2019       |Issue       |Closed|[#191](https://github.com/OWASP/SecureTea-Project/issues/#191)|Bug: Invalid Shodan API key blocks API Key attribute declaration                                       |
+|2.08.2019       |Pull Request|Merged|[#192](https://github.com/OWASP/SecureTea-Project/issues/#192)|Fix #191: Bug: Invalid Shodan API key blocks API Key attribute declaration                             |
+|2.08.2019       |Pull Request|Merged|[#193](https://github.com/OWASP/SecureTea-Project/issues/#193)|Dev docs: Add system mode details                                                                      |
+|2.08.2019       |Issue       |Closed|[#194](https://github.com/OWASP/SecureTea-Project/issues/#194)|Bug: Setup failing to locate & copy OSINT files during installation                                    |
+|4.08.2019       |Pull Request|Merged|[#195](https://github.com/OWASP/SecureTea-Project/issues/#195)|Fix #194: Identify OSINT as a python package                                                           |
+|4.08.2019       |Issue       |Closed|[#196](https://github.com/OWASP/SecureTea-Project/issues/#196)|Bug: "pip install" fails to copy configuration file                                                    |
+|4.08.2019       |Pull Request|Merged|[#197](https://github.com/OWASP/SecureTea-Project/issues/#197)|Fix #196: Instruct setup.py to copy configuration file                                                 |
+|4.08.2019       |Pull Request|Merged|[#198](https://github.com/OWASP/SecureTea-Project/issues/#198)|Dev docs: Add IoT mode details                                                                         |
+|4.08.2019       |Pull Request|Merged|[#199](https://github.com/OWASP/SecureTea-Project/issues/#199)|Make modes mutually exclusive                                                                          |
+|5.08.2019       |Pull Request|Merged|[#200](https://github.com/OWASP/SecureTea-Project/issues/#200)|User docs: Add server mode details                                                                     |
+|5.08.2019       |Pull Request|Merged|[#201](https://github.com/OWASP/SecureTea-Project/issues/#201)|PyPi docs: Add server mode details                                                                     |
+|5.08.2019       |Issue       |Closed|[#202](https://github.com/OWASP/SecureTea-Project/issues/#202)|Bug: Failing to retrieve (KeyError) AntiVirus & Web Deface configurations from saved configuration file|
+|5.08.2019       |Pull Request|Merged|[#203](https://github.com/OWASP/SecureTea-Project/issues/#203)|Fix #202: Look for appropriate keys                                                                    |
+|6.08.2019       |Pull Request|Merged|[#205](https://github.com/OWASP/SecureTea-Project/issues/#205)|Feature: Add last login details to GUI dashboard                                                       |
+|8.0.8.2019      |Pull Request|Merged|[#206](https://github.com/OWASP/SecureTea-Project/issues/#206)|GUI: Add Gmail notification text fields                                                                |
+|7.08.2019       |Issue       |Closed|[#207](https://github.com/OWASP/SecureTea-Project/issues/#207)|Bug: Missing UTF-8 encoding definition                                                                 |
+|7.08.2019       |Pull Request|Merged|[#208](https://github.com/OWASP/SecureTea-Project/issues/#208)|Fix #207 - Add missing UTF-8 module encoding definition                                                |
+|9.08.2019       |Pull Request|Merged|[#209](https://github.com/OWASP/SecureTea-Project/issues/#209)|GUI: Add antivirus configuration fields                                                                |
+|9.08.2019       |Pull Request|Merged|[#210](https://github.com/OWASP/SecureTea-Project/issues/#210)|Dev docs: Update roadmap                                                                               |
+|10.08.2019      |Pull Request|Merged|[#211](https://github.com/OWASP/SecureTea-Project/issues/#211)|GUI: Add GUI configuration fields for Auto Server Patcher                                              |
+|10.08.2019      |Pull Request|Merged|[#212](https://github.com/OWASP/SecureTea-Project/issues/#212)|Dev docs: Fix mode diagram missing link due to forked branch deletion                                  |
+|10.08.2019      |Pull Request|Merged|[#213](https://github.com/OWASP/SecureTea-Project/issues/#213)|User docs: Add system mode details                                                                     |
+|10.08.2019      |Pull Request|Merged|[#214](https://github.com/OWASP/SecureTea-Project/issues/#214)|PyPi docs: Add system mode details                                                                     |
+|11..08.2019     |Pull Request|Merged|[#215](https://github.com/OWASP/SecureTea-Project/issues/#215)|GUI: Add GUI for system log monitor                                                                    |
+|11..08.2019     |Pull Request|Merged|[#216](https://github.com/OWASP/SecureTea-Project/issues/#216)|User docs: Add IoT mode details                                                                        |
+|11..08.2019     |Pull Request|Merged|[#217](https://github.com/OWASP/SecureTea-Project/issues/#217)|PyPi docs: Add IoT mode details                                                                        |
+|14.08.2019      |Pull Request|Merged|[#218](https://github.com/OWASP/SecureTea-Project/issues/#218)|GUI: Add Firewall configuration fields                                                                 |
+|14.08.2019      |Pull Request|Merged|[#219](https://github.com/OWASP/SecureTea-Project/issues/#219)|User docs: Provide support for technical jargon to improve user experience                             |
+|14.08.2019      |Pull Request|Merged|[#220](https://github.com/OWASP/SecureTea-Project/issues/#220)|PyPi docs: Provide support for technical jargon to improve user experience                             |
+|15.08.2019      |Pull Request|Merged|[#221](https://github.com/OWASP/SecureTea-Project/issues/#221)|GUI: Add server log monitor configuration fields                                                       |
+|14.08.2019      |Pull Request|Merged|[#222](https://github.com/OWASP/SecureTea-Project/issues/#222)|Restructure README                                                                                     |
+|15.08.2019      |Pull Request|Merged|[#223](https://github.com/OWASP/SecureTea-Project/issues/#223)|GUI: Add Intrusion Detection System configuration fields                                               |
+|16.08.2019      |Pull Request|Merged|[#225](https://github.com/OWASP/SecureTea-Project/issues/#225)|GUI: Add Local Web Deface Detection & Prevention System                                                |
+|16.08.2019      |Pull Request|Merged|[#226](https://github.com/OWASP/SecureTea-Project/issues/#226)|Collect network interface name before process division to avoid screen locking & base-10 error         |
+|16.08.2019      |Pull Request|Merged|[#227](https://github.com/OWASP/SecureTea-Project/issues/#227)|Update README with the requested changes                                                               |
+|17.08.2019      |Pull Request|Merged|[#230](https://github.com/OWASP/SecureTea-Project/issues/#230)|Fix #229 - Restore Python 2 support for input                                                          |
+|17.08.2019      |Pull Request|Merged|[#231](https://github.com/OWASP/SecureTea-Project/issues/#231)|GUI: Add IoT Anonymity Checker & Insecure Headers configuration fields                                 |
+|18.08.2019      |Pull Request|Merged|[#232](https://github.com/OWASP/SecureTea-Project/issues/#232)|End SSID spoof scanning loop when scanning not supported by the interface & safely log the message     |
+|18.08.2019      |Pull Request|Merged|[#233](https://github.com/OWASP/SecureTea-Project/issues/#233)|Create guide for setting up local web serving over HTTPS                                               |
+|19.08.2019      |Pull Request|Merged|[#236](https://github.com/OWASP/SecureTea-Project/issues/#236)|Re-structure, re-design and update the README.md                                                       |
+|19.08.2019      |Pull Request|Merged|[#238](https://github.com/OWASP/SecureTea-Project/issues/#238)|Update user guide to latest                                                                            |
+|19.08.2019      |Pull Request|Merged|[#239](https://github.com/OWASP/SecureTea-Project/issues/#239)|Update PyPi docs to latest                                                                             |
+|22.08.2019      |Pull Request|Merged|[#237](https://github.com/OWASP/SecureTea-Project/issues/#237)|Update setup.py for v2.0 release                                                                       |
+|23.08.2019      |Pull Request|Open|[#240](https://github.com/OWASP/SecureTea-Project/issues/#240)|Update README for v2.0 release
 
 ### Commits
 View list of commits [here](https://github.com/OWASP/SecureTea-Project/commits?author=abhisharma404).
