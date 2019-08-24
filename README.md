@@ -146,7 +146,7 @@ Laying down a strong foundation & base architecture for Intrusion detection & pr
 |Date            |Type        |Status|ID  |Name                                                                                                   |
 |----------------|------------|------|----|-------------------------------------------------------------------------------------------------------|
 |**Pre-GSoC**        |            |      |    |                                                                                                       |
-|13.01.2019      |Issue       |Closed|#9  |Error while installing                                                                                 |
+|13.01.2019      |Issue       |Closed|[#9](https://github.com/OWASP/SecureTea-Project/pull/9)  |Error while installing                                                                                 |
 |13.01.2019      |Pull Request|Merged|#10 |Fix #9 setup error                                                                                     |
 |13.01.2019      |Pull Request|Merged|#11 |Add badges, fixed typos & others                                                                       |
 |14.01.2019      |Issue       |Closed|#12 |Bug : sudo pm-suspend does not work on Ubuntu 18.04                                                    |
